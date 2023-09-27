@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Swift",
+            "type": "shell",
+            "command": "swift",
+            "args": [
+                "build"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
